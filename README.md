@@ -1,14 +1,12 @@
 # JeSuis
 
-JeSuis; avukatlık ve arabuluculuk süreçlerinde müvekkil, dosya, masraf, muhasebe, makbuz, ücret ve belge yönetimini tek masaüstü uygulamasında toplamak için hazırlanmış profesyonel bir iş takip yazılımıdır.
+JeSuis; avukatlık ve arabuluculuk süreçlerinde müvekkil, dosya, masraf, muhasebe, makbuz, ücret ve belge yönetimini tek masaüstü uygulamasında toplamak için hazırlanmış profesyonel bir hukuk ofisi yönetimi yazılımıdır. Mesleki dayanışma amacıyla meslektaşların kullanımına ücretsiz olarak sunulmuştur.
 
 **Güncel sürüm:** [v0.1.0](https://github.com/hknrslnby-eng/je-suis/releases/tag/v0.1.0)
 
 ## Bu repo ne içerir?
 
 Bu GitHub deposu yalnızca **son kullanıcı kurulum dosyalarını** ve dağıtım dokümantasyonunu içerir. Uygulamanın kaynak kodu, geliştirme ortamı ve özel yapılandırmalar burada yayımlanmaz.
-
-Release sayfasının altında görünen **Source code (zip)** ve **Source code (tar.gz)** bağlantıları GitHub tarafından otomatik oluşturulur; bu arşivler yalnızca bu dağıtım reposunun anlık görüntüsünü (README ve lisans metni) içerir, JeSuis uygulama kaynak kodunu içermez. GitHub şu an bu otomatik arşivleri kaldırmaya izin vermez; yüklediğiniz kurulum dosyalarına etkisi yoktur.
 
 ## JeSuis ne yapar?
 
