@@ -1,10 +1,39 @@
 # JeSuis
 
-JeSuis; hukuk, arabuluculuk, dosya, gider, makbuz ve çalışma alanı süreçlerini tek masaüstü uygulamasında toplamak için hazırlanmış profesyonel bir iş takip uygulamasıdır.
-
-Bu repo yalnızca son kullanıcı dağıtım dosyalarını içerir. Kaynak kod, geliştirme dosyaları ve özel yapılandırmalar bu repoda yayımlanmaz.
+JeSuis; avukatlık ve arabuluculuk süreçlerinde müvekkil, dosya, masraf, muhasebe, makbuz, ücret ve belge yönetimini tek masaüstü uygulamasında toplamak için hazırlanmış profesyonel bir iş takip yazılımıdır.
 
 **Güncel sürüm:** [v0.1.0](https://github.com/hknrslnby-eng/je-suis/releases/tag/v0.1.0)
+
+## Bu repo ne içerir?
+
+Bu GitHub deposu yalnızca **son kullanıcı kurulum dosyalarını** ve dağıtım dokümantasyonunu içerir. Uygulamanın kaynak kodu, geliştirme ortamı ve özel yapılandırmalar burada yayımlanmaz.
+
+Release sayfasının altında görünen **Source code (zip)** ve **Source code (tar.gz)** bağlantıları GitHub tarafından otomatik oluşturulur; bu arşivler yalnızca bu dağıtım reposunun anlık görüntüsünü (README ve lisans metni) içerir, JeSuis uygulama kaynak kodunu içermez. GitHub şu an bu otomatik arşivleri kaldırmaya izin vermez; yüklediğiniz kurulum dosyalarına etkisi yoktur.
+
+## JeSuis ne yapar?
+
+JeSuis, ofis içi operasyonları modüler bir yapıda bir araya getirir:
+
+| Modül | Özet |
+| --- | --- |
+| **Dashboard** | Günlük özet, hızlı erişim ve genel durum görünümü. |
+| **Müvekkiller** | Müvekkil kayıtları, iletişim bilgileri ve ilişkili dosya/iş bağlantıları. |
+| **Taraflar** | Avukatlık ve arabuluculuk süreçlerinde karşı taraf ve ilgili kişi kayıtları. |
+| **Ofis Personeli** | Personel ekleme, listeleme ve ofis içi görev dağılımı. |
+| **Raporlama** | Avukat ve arabulucu akışlarında dosya/iş takibi, planlayıcı ve arabuluculuk tutanağı oluşturma. |
+| **Masraf Takibi** | Dosya ve iş bazlı masraflar, tahsilatlar, ilişkili dosya havuzları. |
+| **Muhasebe** | Makbuz ve gider kayıtları, muhasebe verileri; belge yüklemelerinde yerel yapay zekâ destekli alan önerisi. |
+| **Ücret Takibi** | Aylık, saatlik, karma, iş bazlı, tevkil, M.İ.V.Ü, adli yardım, CMK ve arabuluculuk ücret hesapları. |
+| **Belge Arşivi** | Dosya ve işlere bağlı belgelerin arşivlenmesi, aranması ve önizlenmesi. |
+| **Ayarlar** | Tema, çalışma alanı, yedekleme, eşitleme ve uygulama tercihleri. |
+
+### Veri ve gizlilik
+
+Verileriniz öncelikle **kendi bilgisayarınızda** tutulur. JeSuis, kurulum paketine kullanıcı verisi eklemez; her kurulum kendi yerel veritabanını oluşturur. Yedekleme ve mevzuata uygun veri saklama sorumluluğu kullanıcıya aittir. Ayrıntılı bilgi için uygulama içindeki **Yasal Bilgilendirme** bölümüne bakın.
+
+### Desteklenen platformlar
+
+Windows, Linux ve macOS için ayrı kurulum paketleri sunulur. Yapay zekâ özellikleri kurulumla birlikte gelen yerel motora dayanır; harici model kurulumu gerekmez.
 
 ## Hangi dosyayı indirmeliyim?
 
@@ -112,6 +141,20 @@ sha256sum -c SHA256SUMS.txt --ignore-missing
 | Linux | Modern 64-bit dağıtım, WebKitGTK uyumlu masaüstü ortamı |
 | macOS | Güncel desteklenen macOS sürümü (Intel ve Apple Silicon) |
 
+## Lisans
+
+JeSuis **açık kaynak değildir**. MIT, GPL veya benzeri açık kaynak lisansları bu dağıtım için uygun değildir.
+
+Bu sürüm, **ücretsiz bireysel mesleki kullanım** için sunulur. Kaynak kod verilmez; yeniden dağıtım, tersine mühendislik ve ticari kullanım izin gerektirir. Tüm haklar geliştiricide saklıdır.
+
+Tam metin: [LICENSE.md](LICENSE.md)
+
+**Özet:**
+
+- Ücretsiz indirip kendi mesleki çalışmanızda kullanabilirsiniz.
+- Kurulum dosyalarını başkalarına dağıtamaz veya satamazsınız.
+- Kaynak kod talep edilemez; gelecekteki ticari lisanslar ayrıca duyurulabilir.
+
 ## Sürüm
 
 Güncel sürüm dosyaları bu reponun GitHub Releases bölümünde yayımlanır:
@@ -120,4 +163,4 @@ https://github.com/hknrslnby-eng/je-suis/releases
 
 ## Destek
 
-Kurulum veya çalıştırma sırasında sorun yaşarsanız, indirdiğiniz dosyanın işletim sisteminize uygun olduğundan ve en güncel release sürümünü kullandığınızdan emin olun.
+Kurulum veya çalıştırma sırasında sorun yaşarsanız, indirdiğiniz dosyanın işletim sisteminize uygun olduğundan ve en güncel release sürümünü kullandığınızdan emin olun. Teknik destek ve lisans talepleri için [Issues](https://github.com/hknrslnby-eng/je-suis/issues) bölümünü kullanabilirsiniz.
